@@ -64,6 +64,8 @@ pop(void) | Pop up the last element
 shift(void) | Remove the zero-indexed element 
 unshift(element):void | Insert a new element at zero-index
 splice(start, count, replace):void | Insert/Remove elements at custom index
+reverse(void):array | Return a reverse ordered array
+join(seperator):string | Join the elements
 
 
 ### Assoc Array
@@ -71,3 +73,8 @@ interface signature | interface outline
 :---------------:|:------------------------:
 size(void):int | Get element counts
 empty(void):bool | Check if empty
+
+### Date & Time, Calendar
+
+### Regular Expression
+
