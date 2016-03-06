@@ -40,7 +40,7 @@ For **Javascript** QLib use prototype way to provide the interfaces. For each in
 interface signature | interface outline
 :---------------:|:------------------------:
 size(void):int | Get string length
-empty(void):bool | Check if empty
+isEmpty(void):bool | Check if empty
 trim(option):string | Remove leading or trailing blanks
 split(seperator):array | Split a string into an array
 contains(substr, ignoreCase):bool | Check if has the substr
@@ -54,7 +54,7 @@ splice(start, count, replace):void | Insert/Remove elements at custom index
 interface signature | interface outline
 :---------------:|:------------------------:
 size(void):int | Get array element counts
-empty(void):bool | Check if empty
+isEmpty(void):bool | Check if empty
 contains(element):bool | Check if element is contained in array
 indexOf(element, direction):int | Find the index of the first match element
 slice(start, end):array | Create a slice of an array
@@ -72,7 +72,7 @@ join(seperator):string | Join the elements
 interface signature | interface outline
 :---------------:|:------------------------:
 size(void):int | Get element counts
-empty(void):bool | Check if empty
+isEmpty(void):bool | Check if empty
 
 ### Date & Time, Calendar
 
