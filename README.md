@@ -42,7 +42,7 @@ interface signature | interface outline
 size(void):int | Get string length
 isEmpty(void):bool | Check if empty
 trim(option):string | Remove leading or trailing blanks
-split(seperator):array | Split a string into an array
+split(separator):array | Split a string into an array
 contains(substr, ignoreCase):bool | Check if has the substr
 indexOf(substr, direction):int | Find the index of the first matched substr
 slice(start, end):string | Create a substring
@@ -57,6 +57,9 @@ size(void):int | Get array element counts
 isEmpty(void):bool | Check if empty
 contains(element):bool | Check if element is contained in array
 indexOf(element, direction):int | Find the index of the first match element
+find(condition):element | Find the first element matches the condition
+findIndex(condition):int | Find the index of the first element matches the condition
+filter(condition):array | Filter the elements who match the condition
 slice(start, end):array | Create a slice of an array
 concat(array):array | Append another array
 push(element):void | Insert a new element from end
@@ -64,7 +67,14 @@ pop(void) | Pop up the last element
 shift(void) | Remove the zero-indexed element 
 unshift(element):void | Insert a new element at zero-index
 splice(start, count, replace):void | Insert/Remove elements at custom index
+sort(func):void | Sort the array in place according to the function
+unique(void):array | Return an array with unique values
 reverse(void):array | Return a reverse ordered array
+union(arr):array | Operation union
+intersection(arr):array | Operation intersection
+difference(arr):array | Operation difference
+first(arr):element | Return the first element of an array
+last(arr):element | Return the last element of an array
 join(seperator):string | Join the elements
 
 
@@ -74,7 +84,7 @@ interface signature | interface outline
 size(void):int | Get element counts
 isEmpty(void):bool | Check if empty
 
-### Date & Time, Calendar
+### Date & Time
 
 ### Regular Expression
 
