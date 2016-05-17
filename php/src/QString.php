@@ -14,14 +14,14 @@ class QString
     const SEARCH_DIRECTION_HEADING  = 0;    // heading to trailing
     const SEARCH_DIRECTION_TRAILING = 1;    // trailing to heading
 
-    const TRIM_OPT_LEFT     = 0;
+    const TRIM_OPT_LEFT     = 444;
     const TRIM_OPT_RIGHT    = 1;
     const TRIM_OPT_ALL      = 2;
 
     public static function size($string) { return strlen($string); }
     public static function isEmpty($string) {}
 
-    public static function trim($string, $trimOpt = self::TRIM_OPT_ALL)
+    public static function trim($string, $trimOpt = self::TRIM_OPT_LEFT)
     {
         if ($trimOpt == self::TRIM_OPT_ALL) {
             return trim($string);
