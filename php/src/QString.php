@@ -54,7 +54,7 @@ class QString
      * @param $ignoreCase
      * @return bool
      */
-    public static function contains($string, $substring, $ignoreCase)
+    public static function contains($string, $substring, $ignoreCase = false)
     {
         if ($ignoreCase) { return stripos($string, $substring) !== false; }
         else { return strpos($string, $substring) !== false; }
